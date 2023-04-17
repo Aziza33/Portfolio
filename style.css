@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+}
+.masthead
+{
+    background: url(IMG/ordiblanc1280.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    min-width: 100%;
+    padding: 13%;
+    background-repeat: no-repeat;
+    }
+
+.navbar
+{
+    color: black;
+    background-color: white;
+     
+}
+.nav-item :hover {
+background-color: #DCD3D6;
+background-color: #F0F0F0;
+border-radius: 5%;
+}
+
+#h1accueil
+{
+    color: #6C6C74;
+    color: black;
+    text-decoration: none;
+    margin: 10%;
+    margin-top: 10%;  
+}
+hr
+{
+    border: 0;
+}
+ 
+/* ...............................A propos........................................................*/
+.pageapropos
+{
+    padding: 10%;
+    background-color: #E9E9E9;
+    background-color: #F0F0F0;
+    background-color: #DCD3D6;
+    text-align: center;
+}
+
+#titreprofil
+{
+    text-align: center;
+}
+.col-lg-9
+{
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.822);
+    background-color: #E7F3FF;
+    background-color: #AF9F95;
+    background-color: #DCD3D6;
+
+    }
+    /* ......................................Section services.......................................... */
+    /* .page-section  */
+    .pageservices
+    {
+        background-color: #F0F0F0;
+        padding: 4%;
+        margin-top: 0%;
+        }
+        
+        .mb-2
+        {
+            color: #6C6C74;
+        }
+
+        /* texte services */
+       .mb-0
+       {
+        color: black;
+       }
+        
+        p
+        {
+            color: black;
+        }
+        h3
+        {
+            color: black;
+        }
+      .mt-0
+        {
+          padding: 8%;  
+        }
+        /* boutons icones */
+        .fs-1
+        {
+            color: #371613;
+            color: #6C6C74;  
+        }
+        .btn-x2
+        {
+            color: black;
+            background-color: black;
+            background-color: #DCD3D6;
+        }
+        /* .mt-5 {
+            color: red;
+            vertical-align: auto; boutons 
+           
+        }*/
+        /* ....................................PORTFOLIO................................................. */
+.portfolio
+       {
+        padding: 5%;
+        width: 100%vph;
+        background-color: #DCD3D6;
+        color: black;
+        margin: 0%;
+       } 
+.portfolio-box-caption
+       {
+        color: black !important;
+        text-decoration: none !important;
+        margin: 0%;
+        padding: 0;
+       }
+       .col-lg-4
+       {
+        text-decoration: none;
+       }
+
+    .project-category
+       {
+        font-weight: 500;
+       }
+       /* ....................................CONTACT.................................................... */
+       .formulaire
+       {
+        padding: 5%;
+        background-color: #F0F0F0 ;
+        justify-content: center;
+        display: flex;
+    }
+
+ #btnsubmit
+ {
+    background-color: #DCD3D6;
+ }
+    .mb-3
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .form-label
+    {
+        width: 100%;
+        color: #F0F0F0;
+    }
+    footer
+    {
+        text-align: right;
+    }
+    /* .formlabel */
+    /*  justify-content: center;
+        text-align: center;
+        display: flex; */
+       

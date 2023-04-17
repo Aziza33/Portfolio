@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">  <img src="IMG_OK/logo.jpeg" alt="logo">
+        </div>
+ <nav>
+     <ul>
+        <li> <a href="index.html">Accueil</a> </li>
+        <li> <a href="formation.html">Formation développeur web</a> </li>
+        <li> <a href="temoignages.html">Témoignages</a> </li>
+        <li> <a href="references.html">Nos références</a> </li>
+        <li> <a href="contact.html">Nous contacter</a> </li>
+         
+     </ul>
+     </nav> 
+    </header>
+    
+<div class="bloc"> 
+
+    <form class="formbloc" action="/contact" method="post">
+        <h3>Nous contacter</h3> 
+<fieldset id="formul1"> 
+    <legend>Informations personnelles</legend>
+       <div class="formgroup"> 
+        <label for="nom">Nom*</label>
+        <input type="text" id="nom" required> <br>
+
+        <label for="email">Adresse mail*</label>
+        <input type="email" id="email" required> <br>
+
+        <label for="tel">N°/ Tél</label>
+        <input type="tel" id="tel" maxlength="10"> <br>
+        <p>*Mentions obligatoires</p> <br>
+        </div>
+</fieldset> 
+<br>
+
+<fieldset id="formul2"> 
+    <legend> Votre situation</legend>
+
+        <div class="situation"> 
+        <label for="demandeur">Demandeur d'emploi</label>
+        <input type="checkbox" name="Demandeur d'emploi" id="demandeur"> 
+        <label for="salarie">Salarié en transition professionnelle</label>
+        <input type="checkbox" name="Salarie" id="salarie">
+        <label for="autre">Autre</label>
+        <input type="checkbox" name="autre" id="autre"> <br><br>
+        </div>
+    </fieldset> <br>
+<fieldset id="formul3">
+    <legend> Votre modalité d'apprentissage</legend>
+        <label for="presentiel">En centre de formation (présentiel)</label>
+        <input type="checkbox" name="presentiel" id="presentiel">
+        <label for="distance">100% à distance</label>
+        <input type="checkbox" name="distance" id="distance">
+        <label for="alternance">En contrat d'alternance avec une entreprise</label>
+        <input type="checkbox" name="alternance" id="alternance">
+        <label for="sanspref">Sans préférence</label>
+        <input type="checkbox" name="sanspref" id="sanspref"><br><br>
+</fieldset> <br>
+
+
+        <h3>Quelle est votre région ?</h3>
+        <div id="votrechoix"><label for="select">Faites votre choix</label></div>
+        <select name="Faites votre choix" id="select">
+
+            <option value="">faites votre choix</option>
+            <option>Auvergne-Rhône-Alpes</option>
+            <option>Bourgogne-Franche-Comté</option>
+            <option>Bretagne</option>
+            <option>Centre-Val de Loire</option>
+            <option>Corse</option>
+            <option>Grand-Est</option>
+            <option>Hauts-de-France</option>
+            <option>Ile-de-France</option>
+            <option>Normandie</option>
+            <option>Nouvelle Aquitaine</option>
+            <option>Occitanie</option>
+            <option>Pays de la Loire</option>
+            <option>Provence-Alpes-Côte d'Azur</option> 
+            </select>
+
+            <div id="envoyer">
+                <label for="submit"> Envoyer</label>
+            </div>
+            <input type="submit" value="Envoyer" id="submit">
+
+            <div id="annuler">
+                <label for="reset">Annuler</label>
+            </div>
+            <input type="reset" value="Annuler" id="reset">
+        
+            </form>
+            <br><br><br>
+
+
+
+     </div> 
+
+
+    
+</body>
+</html>
